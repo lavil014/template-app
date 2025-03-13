@@ -1,0 +1,14 @@
+[
+  {
+    "templates":{
+      "uds": "It was a pleasure speaking with you today, as discussed Mr. Martinez",
+      "premise liability":"our attorneys are very familiar with these types of premise liability cases.",
+      "real estate":"our attorneys are very familiar with these types of real estate cases.",
+      "personal injury":"our attorneys are very familiar with these types of personal injury cases.",
+      "unpermitted dwelling": "our attorneys are very familiar with these types of unpermitted dwelling cases.",
+      "phone consultation": "Dear Client, It was a pleasure speaking with you again today.",
+      "office consultation": "As discussed, Mr. Mark Castellanet will be available Friday"
+    },
+    "Subjects": ["Phone consultation", "Office consultation", "Law Offices Of Mark S. Martinez"]  
+  }
+]
