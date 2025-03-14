@@ -9,6 +9,8 @@
       "phone consultation": "Dear Client, It was a pleasure speaking with you again today.",
       "office consultation": "As discussed, Mr. Mark Castellanet will be available Friday"
     },
-    "Subjects": ["Phone consultation", "Office consultation", "Law Offices Of Mark S. Martinez"]  
+    "Subjects": ["Phone consultation", "Office consultation", "Law Offices Of Mark S. Martinez"],
+    "users": ["Tony","Luis"],
+    "email address":["tony@martinezlawcenter.com","luis@martinezlawcenter.com"]
   }
 ]
