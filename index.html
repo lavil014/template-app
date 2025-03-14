@@ -3,21 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
   <title>LOMM Email Templates</title>
 </head>
 <body>
-  <form action="">
-    <input type="text" placeholder="PC's name">
-    <select name="Email sample" id="">
-      <option value="">UD</option>
-      <option value="">Premise Liability</option>
-      <option value="">Real Estate</option>
-      <option value="">Personal Injury</option>
-      <option value="">Phone Consultation</option>
-      <option value="">Office Consultation</option>
-      <option value="">Unpermitted dwelling</option>
+  <form id="emailForm">
+    <select name="" id="userSelect" required>
+      <option value="tony">Tony</option>
+      <option value="luis">Luis</option>
     </select>
-    <button type="submit">Send email</button>
+    <input type="text" id="clientName" placeholder="PC's name" required>
+    <select name="Email sample" required>
+      <option value="unlawful detainer">Unlawful Detainer</option>
+      <option value="premise liability">Premise Liability</option>
+      <option value="real estate">Real Estate</option>
+      <option value="personal injury">Personal Injury</option>
+      <option value="phone consultation">Phone Consultation</option>
+      <option value="office consultation">Office Consultation</option>
+      <option value="unpermitted dwelling">Unpermitted dwelling</option>
+    </select>
+    <button type="submit" id="mainBtn">Send email</button>
   </form>
+  <script src="/script.js"></script>
 </body>
 </html>
